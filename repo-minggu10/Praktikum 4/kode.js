@@ -1,0 +1,1 @@
+alert("Halo, Ini adalah alert yang menggunakan program JS External");
