@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Percabangan Switch Case</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var jawaban = prompt("Selamat anda memenangkan salah satu hadiah kami, pilih hadiah secara acak dengan memilih 1 - 5");
+
+		switch(jawaban){
+			case "1" :
+				hadiah = "1 buah Xiaomi Redmi note 9";
+				break;
+			case "2":
+ 				hadiah = "1 buah Powerbank 20000 MAh";
+ 				break;
+ 			case "3":
+ 				hadiah = "1 buah mesin cuci";
+ 				break;
+ 			case "4":
+				hadiah = "Voucher Belanja Rp.1.000.000";
+				break;
+ 			case "5":
+ 				hadiah = "Uang Tunai Rp 500.000";
+ 				break;
+ 			default:
+ 				document.write("<p>Anda Salah Pilih</p>")
+		}
+
+		if(hadiah === ""){
+			document.write("<p>Anda tidak memilih hadiah apapun</p>");
+		}else{
+			document.write("<h2>Selamat kamu mendapatkan " + hadiah +"</h2>");
+		}
+	</script>
+</body>
+</html>

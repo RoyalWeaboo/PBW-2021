@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mengubah isi Array</title>
+</head>
+<body>
+	<script type="text/javascript">
+		// Method filter
+		const angka = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+		// mengambil data yang hanya habis dibagi dua 
+		const filteredArray = angka.filter(item => item % 2 === 0);
+		console.log(filteredArray) // -> [2, 4, 6, 8]
+
+		// Method Includes
+		var hewan = ["Ayam", "Kambing", "Jerapah", "Keledai"];
+		// mengecek apa keledai ada di dalam array hewan
+		var cekHewan1 = hewan.includes("Keledai");
+		console.log(cekHewan1); // -> karena ada maka mengembalikan boolean true
+		// mengecek apa kucing ada di dalam array hewan
+		var cekHewan2 = hewan.includes("Kucing");
+		console.log(cekHewan2); // -> karena tidak ada maka mengembalikan boolean false
+
+		//Method Sort (Mengurutkan)
+		var alfabet = ['a','f','z','e','r','g'];
+		var angkaAcak = [3,1,2,6,8,5];
+		console.log(alfabet.sort());
+		console.log(angka.sort());
+	</script>
+</body>
+</html>
