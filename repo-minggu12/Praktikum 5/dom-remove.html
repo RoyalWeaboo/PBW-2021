@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 	<meta charset="UTF-8">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+ 	<title>DOM API Javascript</title>
+</head>
+<body>
+
+ 	<h2 id="line">Hapus Line ini !</h2>
+
+ 	<script>
+
+ 		// memilih elemen berdasarkan ID
+ 		var deleteLine = document.getElementById('line');
+
+ 		// menghapus elemen yang sudah dipilih
+ 		deleteLine.remove();
+ 		console.log("Elemen sudah dihapus");
+ 		console.log(deleteLine);
+
+ 	</script>
+
+</body>
+</html>

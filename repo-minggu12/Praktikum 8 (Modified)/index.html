@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 	<meta charset="UTF-8">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+ 	<title>Belajar Fungsi di Javascript</title>
+</head>
+<body style="background-color: lightgray">
+	<header>
+		<h1>Input Data Mahasiswa</h1>
+	</header>
+ 	<article>
+	 	<fieldset>
+	 		<legend><b>Data Mahasiswa</b></legend>
+	 		<input type="text" name="mhs" placeholder="input nama mahasiswa..."/>
+	 		<input type="text" name="nim" placeholder="input nim mahasiswa..."/>
+	 		<input type="text" name="ipk" placeholder="input ipk mahasiswa..."/>
+	 		<input type="button" onclick="addMhs()" value="Tambah" />
+	 	</fieldset>
+
+	 	<div>
+	 		<p><b>List Mahasiswa :</b></p>
+	 		<ul id="list-mhs" style="background-color: white">
+	 		</ul>
+	 	</div>
+	 	<script src="fungsi.js"></script>
+ 	</article>
+</body>
+</html>
