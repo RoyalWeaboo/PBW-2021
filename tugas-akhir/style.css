@@ -1,0 +1,176 @@
+.marginTop6{
+	margin-top: 6%;
+	margin-bottom: auto;
+}
+
+.marginTop8{
+	margin-top: 8%;
+	margin-bottom: auto;
+}
+
+.marginTop10{
+	margin-top: 10%;
+	margin-bottom: auto;
+}
+
+.marginTop16{
+	margin-top: 22%;
+	margin-bottom: auto;
+}
+
+.marginTop8px{
+	margin-top: 8px;
+	margin-bottom: auto;
+}
+
+.marginTop16px{
+	margin-top: 16px;
+	margin-bottom: auto;
+}
+
+.marginTop32px{
+	margin-top: 32px;
+	margin-bottom: auto;
+}
+
+.form-mt-20px{
+	margin-top: 20px;
+	margin-bottom: auto;
+}
+
+.paddingForm{
+	padding: 16px;
+}
+
+.paddingLeft8px{
+	padding-left: 8px;
+	padding-right: auto;
+
+}
+
+.marginLeft10px{
+	margin-left: 10px;
+	margin-right: auto;
+
+}
+
+.login-bg {
+  background-image: url("login_bg.jpg");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.marginLeftRight16px{
+	margin-left: 16px;
+	margin-right: 16px;
+
+}
+
+.marginRight16px{
+	margin-left: auto;
+	margin-right: 16px;
+
+}
+
+.marginLeft5pc{
+	margin-left: 5%;
+	margin-right: auto;
+
+}
+
+.marginBlogContent{
+	margin-left: 210px;
+	margin-right: auto;
+
+}
+
+.marginVote{
+	margin-left: 4px;
+	margin-right: auto;
+}
+
+.marginLeft16px{
+	margin-left: 16px;
+	margin-right: auto;
+}
+
+.marginLeft32px{
+	margin-left: 32px;
+	margin-right: auto;
+}
+
+.marginLeft64px{
+	margin-left: 64px;
+	margin-right: auto;
+}
+
+.marginBottom10p{
+	margin-bottom: 10%;
+}
+
+.marginBottom10px{
+	margin-bottom: 10px;
+}
+
+.marginBottom100px{
+	margin-bottom: 100px;
+}
+
+.width6{
+	width: 6%;
+}
+
+.width8{
+	width: 8%;
+}
+
+.width11{
+	width: 11%;
+}
+
+.width13{
+	width: 13%;
+}
+
+.width160{
+	width: 160px;
+}
+
+.width16{
+	width: 16%;
+}
+
+.width60{
+	width: 60%;
+}
+
+.breadcrumbLink{
+	text-decoration:none;
+}
+
+.forumUserImg{
+	width: 70px;
+	height: 70px;
+}
+
+.forumUser{
+	display: inline-flex;
+}
+
+.forumUserDetail{
+	display: block;
+}
+
+.dateTitle{
+	margin-top: -20px; 
+	font-size: 14px;
+}
+
+.imgAbout{
+	width:490px; 
+	height: 250px;
+}
